@@ -8,4 +8,3 @@ FROM country;
 FROM customer;
 
 
-SELECT DISTINCT film;∂
