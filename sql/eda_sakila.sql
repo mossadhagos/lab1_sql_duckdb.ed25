@@ -54,7 +54,7 @@ FROM category c
 JOIN film_category fc
     ON c.category_id = fc.category_id
 GROUP BY category
-ORDER BY number_of_movies DESC
+ORDER BY number_of_movies DESC;
 
 SELECT
     MIN(length) AS shortest,
